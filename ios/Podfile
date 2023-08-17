@@ -24,6 +24,7 @@ prepare_react_native_project!
 #   }
 # }
 # ```
+
 flipper_config = FlipperConfiguration.disabled
 if ENV['NO_FLIPPER'] == '1' then
   # Explicitly disabled through environment variables
@@ -36,6 +37,9 @@ elsif podfile_properties.key?('ios.flipper') then
     flipper_config = FlipperConfiguration.enabled(["Debug", "Release"], { 'Flipper' => podfile_properties['ios.flipper'] })
   end
 end
+
+use_flipper!({ 'Flipper'=> '0.182.0' })
+
 
 target 'expobase' do
   use_expo_modules!
@@ -85,3 +89,4 @@ target 'expobase' do
     end
   end
 end
+

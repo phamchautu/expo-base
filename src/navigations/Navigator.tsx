@@ -1,10 +1,11 @@
 import React, { FC, PropsWithChildren, useMemo } from 'react';
 import { createStackNavigator } from '@react-navigation/stack';
-import ViIcon from './ViIcon';
+
 import { TouchableOpacity } from 'react-native';
 
 import { ParamListBase, RouteProp } from '@react-navigation/native';
 import { IconSize } from 'constants/contansts';
+import ViIcon from '@components/ViIcon';
 export interface NavigatorProps {
   initial?: string;
 }
