@@ -1,3 +1,6 @@
 [submodule "packages/overlay"]
 	path = packages/overlay
 	url = https://github.com/phamchautu/overlay
+[submodule "packages/meta-success"]
+	path = packages/meta-success
+	url = git@github.com:s3techvn/meta-success.git

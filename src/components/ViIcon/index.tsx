@@ -1,5 +1,4 @@
 import React, { ComponentType, FC } from 'react';
-import Icon from '@expo/vector-icons'
 import AntDesign from '@expo/vector-icons/AntDesign';
 import Entypo from '@expo/vector-icons/Entypo';
 import EvilIcons from '@expo/vector-icons/EvilIcons';
